@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
+
+
  <?php
  
  $DiceCount = 0;
@@ -20,7 +22,7 @@
    return $summary;
  }
 
-echo sumDice(8);
+echo sumDice(8); ## Suma která padla na (X) hozenných kostkách
 
  ?>
 
