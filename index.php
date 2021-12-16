@@ -7,7 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+ <?php
+ 
+ function sumDICE(int $diceCount=0 )
+
+
+ ?>
 
 
 
