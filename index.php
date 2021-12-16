@@ -20,7 +20,7 @@
    return $summary;
  }
 
-echo sumDice(35);
+echo sumDice(8);
 
  ?>
 
