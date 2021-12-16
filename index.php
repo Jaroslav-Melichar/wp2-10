@@ -9,8 +9,18 @@
 <body>
  <?php
  
- function sumDICE(int $diceCount=0 )
+ $DiceCount = 0;
 
+ function sumDICE(int $diceCount){
+     $summary = 0;
+
+   for($i=0; $i < $diceCount ; $i++) {
+     $summary += rand(1,6);
+   }
+   return $summary;
+ }
+
+echo sumDice(35);
 
  ?>
 
